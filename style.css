@@ -1,7 +1,10 @@
 .image {
-    width: 200px;
+    width: 500px;
     height: 200px;
-}   
+    display: flex;
+    align-self: flex-end;
+    margin-right: 150px;
+}  
 
 .top {
     background-color: #1F2937;
@@ -11,14 +14,75 @@
     font-size: 48px;
     font-weight: bolder;
     color: #f9FAF8;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero, .headlink {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.logo{
+.logo {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.start {
+    height: 40px;
+    width: 80px; 
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: white;
+    border-color: #f9FAF8       ;
+    }
+
+ .link123{
+     width: 400px;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-self: flex-end;
+     padding-right: 150px;
+     }
+     
+     .herocontainer{
+         height: 200px;
+         width:400px;
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     .titlecontainer{
+         width: 300px;
+         height: 100px;
+         display: flex;
+         flex-wrap: wrap;
+         flex-basis: 1px;
+         margin: 40px;
+     }
+
+     .textcontainer1, {
+      width: 350px;
+      height: 400px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      margin-left: 100px;
+      flex
+
+     }
